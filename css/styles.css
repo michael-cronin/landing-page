@@ -1,0 +1,95 @@
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* header styling */
+
+h4 {
+    font-size: 24px;
+    color: #f9faf8
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8
+}
+
+a {
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+    
+}
+
+.link1 {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: end;
+    padding-right: 75px;
+    gap: 1em;
+    
+}
+
+.outside {
+    display: flex;
+    padding: 70px;
+    
+    
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+    color: white;
+    padding-left: 100px;
+    padding-right: 50px;
+    
+}
+
+.header{
+    display: flex;
+    gap: 1em;
+    align-items: center;
+    padding-left: 70px;
+    
+}
+
+.body {
+    padding-right: 10px;
+}
+
+/* fantasy classes styles */
+
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.archer,
+.wizard,
+.warrior,
+.thief {
+    border: 5px, solid, #3882f6;
+    border-radius: 25px;
+}
+
+.choice {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    color: black;
+    font-weight: 900;
+}
