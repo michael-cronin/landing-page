@@ -1,5 +1,4 @@
 
-
 body {
     display: flex;
     flex-direction: column;
@@ -75,7 +74,7 @@ a {
 .images {
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 75px;
 }
 
 .archer,
@@ -90,6 +89,48 @@ a {
     display: flex;
     justify-content: center;
     font-size: 36px;
-    color: black;
+    color: #1f2937;
     font-weight: 900;
+}
+
+.imagetext {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+
+}
+
+
+.arrow,
+.axe,
+.spell,
+.shadows {
+    color: grey;
+    text-align: center;
+    max-width: 10em;
+}
+
+/* quote style */
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #E5E7EB;
+    padding: 70px;
+}
+
+.gavelin {
+    padding-left: 700px;
+    font-weight: bold;
+    font-size: 24px;
+    
+}
+
+.prophecy {
+    padding-left: 275px;
+    width: 800px;
+    font-style: italic;
+    font-size: 36px;
+    margin:0px 0px -40px 0px;
 }
