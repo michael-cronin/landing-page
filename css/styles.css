@@ -36,7 +36,7 @@ a {
     align-items: center;
     justify-content: end;
     padding-right: 75px;
-    gap: 1em;
+    gap: 2em;
     
 }
 
@@ -134,3 +134,48 @@ a {
     font-size: 36px;
     margin:0px 0px -40px 0px;
 }
+
+/* call to action style */
+
+
+.sign {
+    background-color: #3882F6;
+    width: 150px;
+    height: 40px;
+    padding: 5px;
+    color: #f9faf8;
+    font-weight: bold;
+    font-size: 18px;
+    border-color: white;
+    border-radius: 10px;
+}
+
+.action {
+    display:flex;
+    background-color: #3882F6;
+    padding: 25px;
+    margin: 75px 125px;
+    border-radius: 10px;
+    gap: 500px;
+}
+
+.call {
+    color: #f9faf8;
+}
+
+
+
+
+/* footer style */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    background-color: #1f1f1f;
+    color: #E5E7EB;
+    padding: 25px;
+    font-size: 18px;
+}
+
+
