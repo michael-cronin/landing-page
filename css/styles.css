@@ -115,6 +115,7 @@ a {
 .quote {
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
     background-color: #E5E7EB;
     padding: 70px;
@@ -152,6 +153,8 @@ a {
 
 .action {
     display:flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: #3882F6;
     padding: 25px;
     margin: 75px 125px;
