@@ -42,6 +42,7 @@ a {
 
 .outside {
     display: flex;
+    justify-content: center;
     padding: 70px;
     
     
